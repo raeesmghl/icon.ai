@@ -29,7 +29,7 @@ npx tailwindcss init
 
 - style.css or output.css is the file where all the css code for the utility classes (you will use in your project) is created.
 
-``` json
+```
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./dist/**/*.{html,js}'],
